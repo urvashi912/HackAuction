@@ -1,0 +1,31 @@
+.CheckOutProduct{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top:20px;
+    margin-bottom: 20px;
+
+}
+
+.product_info{
+    padding-left: 20px;
+
+
+}
+
+.img{
+    display: flex;
+    margin-left: 20px;
+    max-height: 200px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.btn{
+    background-color: #f0c14b;
+  border: 1px solid;
+  padding: 10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  border-color: #a88734 #9c7e31;
+  color: #111;
+}
