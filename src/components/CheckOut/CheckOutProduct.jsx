@@ -19,22 +19,22 @@ const CheckOutProduct = ({id, title, image, price, rating  }) => {
         <div className='product_info'>
                 <p>{title}</p>
                 <div className='price'></div>
-                <smal>$</smal>
+                <smal>₹</smal>
           <strong>{price}</strong>
           {console.log(price)}
-          <div className="product_rating">
+          {/* <div className="product_rating">
           {Array(rating)
             .fill()
             .map((_, i) => (
               // eslint-disable-next-line react/jsx-key
               <p>⭐️</p>
             ))}
-        </div>
+        </div> */}
         </div>
         <img src={image} alt="" className='img'/>
         
     </div>
-    <button className='btn' onClick={removeFromBasket}>Remove from basket</button>
+    <button className='btn' onClick={removeFromBasket}>Remove from Basket</button>
     
     </>
     

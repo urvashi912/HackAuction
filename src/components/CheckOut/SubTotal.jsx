@@ -6,9 +6,15 @@ import "./subtotal.css";
 import CurrencyFormat from "react-currency-format";
 import { useStateValue } from "../Datalayer/StateProvider";
 import { getBasketTotal } from "../Datalayer/Reducer";
+import Contact from "../Contact/Contact";
+import { Outlet, Link } from "react-router-dom";
 
 const SubTotal = ({price}) => {
   const [{ basket }, dispatch] = useStateValue();
+
+  const handleClick=()=>{
+    window.location.href = "/contact";
+  }
   return (
     <div className="subtotal">
       <CurrencyFormat
@@ -19,21 +25,17 @@ const SubTotal = ({price}) => {
               SubTotal of {basket.length == 0 ? " " : basket.length} items :{" "}
               <strong>{value}</strong>
             </p>
-            <small className="subtotal_gift">
-              <input type="checkbox" className="checkbox" />
-              This order contains a gifit
-            </small>
           </>
         )}
         decimalsLimit={2}
         value={getBasketTotal(basket)}
         displayType={"text"}
         thousandSeparator={true}
-        prefix={"$"}
+        prefix={"Rs"}
       />
 
       <button>
-        <text className="btn_txt">Proceed to Checkout</text>
+        <text className="btn_txt" onClick={handleClick}>Proceed to Checkout</text>
       </button>
     </div>
   );

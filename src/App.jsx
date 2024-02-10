@@ -6,6 +6,7 @@ import CheckOut from "./components/CheckOut/CheckOut";
 // eslint-disable-next-line no-unused-vars
 import * as ReactDOM from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Contact from "./components/Contact/Contact";
 
 // import "./App.css";
 
@@ -17,6 +18,7 @@ function App() {
         <Routes>
           <Route index element={<Home />} path="/" />
           <Route path="/checkout" element={<CheckOut />} />
+          <Route path="/contact" element={<Contact/>}/>
         </Routes>
       </BrowserRouter>
 

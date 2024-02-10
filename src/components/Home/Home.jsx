@@ -26,7 +26,7 @@ const Home = () => {
               "https://media-cdn.tripadvisor.com/media/photo-s/06/04/3d/e2/shaam-e-sarhad-village.jpg "
             }
             rating={3}
-            Address="Plot No. 35 Kyampur, Sigma II, Greater Noida, Uttar Pradesh 201308•099530 80566"
+            Address="Plot No. 35 Kyampur, Sigma II"
           />
           <Product 
           hotel_name="Cinnamon"
@@ -34,8 +34,19 @@ const Home = () => {
           price = {40}
           image={"https://www.funfoodfrolic.com/wp-content/uploads/2019/08/6.jpg"}
           rating={5}
-          Address="Plot No. 35 Kyampur, Sigma II, Greater Noida, Uttar Pradesh 201308•099530 80566"
+          Address="Plot No. 35 Kyampur, Sigma II"
           
+          />
+
+<Product
+          hotel_name="Rangrezza"
+            title="Rice, Dal, Aloo Sabzi, Salads "
+            price={30}
+            image={
+              "https://media-cdn.tripadvisor.com/media/photo-s/06/04/3d/e2/shaam-e-sarhad-village.jpg "
+            }
+            rating={3}
+            Address="Plot No. 35 Kyampur, Sigma II"
           />
         </div>
 
@@ -46,7 +57,7 @@ const Home = () => {
           price = {26}
           image = {"https://www.funfoodfrolic.com/wp-content/uploads/2016/07/Meal-25.jpg"}
           rating = {5}
-          Address="Plot No. 35 Kyampur, Sigma II, Greater Noida, Uttar Pradesh 201308•099530 80566"
+          Address="Plot No. 35 Kyampur, Sigma II"
            />
           <Product 
           hotel_name="UP-53"
@@ -56,7 +67,7 @@ const Home = () => {
             "https://foodoncall.co.in/wp-content/uploads/2017/12/chinese-thali-1.jpg"
           }
           rating={4}
-          Address="Plot No. 35 Kyampur, Sigma II, Greater Noida"
+          Address="Plot No. 35 Kyampur, Sigma II"
           />
           <Product
           hotel_name="Punjabi Dhaba"
@@ -64,7 +75,7 @@ const Home = () => {
           price = {370.99}
           image = {"https://masalamagic.files.wordpress.com/2014/07/dsc_0096.jpg"}
           rating= {4}
-          Address="Plot No. 35 Kyampur, Sigma II, Greater Noida"
+          Address="Plot No. 35 Kyampur, Sigma II"
 
           />
         </div>
@@ -75,10 +86,20 @@ const Home = () => {
           title = "Handi paneer, Rice, Roti, Fried Rice, Noodles"
           image = {"https://media-cdn.tripadvisor.com/media/photo-s/18/19/f0/a6/simple-but-tasty-thali.jpg"}
           rating = {5}
-          Address="Plot No. 35 Kyampur, Sigma II, Greater Noida, Uttar Pradesh 201308•099530 80566"
+          Address="Plot No. 35 Kyampur, Sigma II, Greater Noida"
           price = {50.99}
           />
           {/* Product */}
+          <Product
+          hotel_name="Rangrezza"
+            title="Rice, Dal, Aloo Sabzi, Salads "
+            price={30}
+            image={
+              "https://media-cdn.tripadvisor.com/media/photo-s/06/04/3d/e2/shaam-e-sarhad-village.jpg "
+            }
+            rating={3}
+            Address="Plot No. 35 Kyampur, Sigma II, Greater Noida"
+          />
         </div>
       </div>
     </div>
